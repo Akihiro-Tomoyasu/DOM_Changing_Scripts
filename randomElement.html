@@ -1,0 +1,13 @@
+<ul class="before">
+	<li>aaa
+	<li>bbb
+	<li>ccc
+	<li>ddd
+</ul>
+<ul class="after">
+
+<script src="app.js"></script>
+<script>
+	var lists = randomElements('ul li a');
+	if(lists) for(var i = 0;i < lists.length;++i) document.querySelector('ul').appendChild(lists[i]);
+</script>
